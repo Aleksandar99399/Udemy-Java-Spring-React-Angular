@@ -1,0 +1,56 @@
+2020-12-09 17:48:14 - Starting FlightreservationApplication using Java 13.0.2 on DESKTOP-LNFB5RO with PID 9200 (C:\Users\user1\IdeaProjects\Udemy\Udemy\Full Stack Developent using Spring boot, Angular and React\flightreservation\target\classes started by user1 in C:\Users\user1\IdeaProjects\Udemy\Udemy\Full Stack Developent using Spring boot, Angular and React\flightreservation)
+2020-12-09 17:48:14 - No active profile set, falling back to default profiles: default
+2020-12-09 17:48:17 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-09 17:48:17 - Finished Spring Data repository scanning in 118 ms. Found 4 JPA repository interfaces.
+2020-12-09 17:48:18 - Tomcat initialized with port(s): 8080 (http)
+2020-12-09 17:48:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-09 17:48:18 - Starting service [Tomcat]
+2020-12-09 17:48:18 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-09 17:48:18 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-12-09 17:48:18 - Initializing Spring embedded WebApplicationContext
+2020-12-09 17:48:18 - Root WebApplicationContext: initialization completed in 3402 ms
+2020-12-09 17:48:18 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:48:18 - HikariPool-1 - Starting...
+2020-12-09 17:48:19 - HikariPool-1 - Start completed.
+2020-12-09 17:48:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-09 17:48:19 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-09 17:48:19 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-09 17:48:20 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-09 17:48:20 - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-09 17:48:23 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-09 17:48:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-09 17:48:23 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-12-09 17:48:23 - Triggering deferred initialization of Spring Data repositories…
+2020-12-09 17:48:29 - Spring Data repositories initialized!
+2020-12-09 17:48:29 - Started FlightreservationApplication in 15.448 seconds (JVM running for 20.511)
+2020-12-09 17:49:28 - Starting FlightreservationApplication using Java 13.0.2 on DESKTOP-LNFB5RO with PID 16716 (C:\Users\user1\IdeaProjects\Udemy\Udemy\Full Stack Developent using Spring boot, Angular and React\flightreservation\target\classes started by user1 in C:\Users\user1\IdeaProjects\Udemy\Udemy\Full Stack Developent using Spring boot, Angular and React\flightreservation)
+2020-12-09 17:49:28 - No active profile set, falling back to default profiles: default
+2020-12-09 17:49:29 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-09 17:49:30 - Finished Spring Data repository scanning in 117 ms. Found 4 JPA repository interfaces.
+2020-12-09 17:49:30 - Tomcat initialized with port(s): 8080 (http)
+2020-12-09 17:49:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-09 17:49:30 - Starting service [Tomcat]
+2020-12-09 17:49:30 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-09 17:49:31 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-12-09 17:49:31 - Initializing Spring embedded WebApplicationContext
+2020-12-09 17:49:31 - Root WebApplicationContext: initialization completed in 3553 ms
+2020-12-09 17:49:36 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-09 17:49:36 - HikariPool-1 - Starting...
+2020-12-09 17:49:36 - HikariPool-1 - Start completed.
+2020-12-09 17:49:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-09 17:49:37 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-09 17:49:37 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-09 17:49:37 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-09 17:49:38 - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-09 17:49:38 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-12-09 17:49:38 - Triggering deferred initialization of Spring Data repositories…
+2020-12-09 17:49:39 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-09 17:49:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-09 17:49:40 - Spring Data repositories initialized!
+2020-12-09 17:49:40 - Started FlightreservationApplication in 13.119 seconds (JVM running for 15.928)
+2020-12-09 17:49:49 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-09 17:49:49 - Initializing Servlet 'dispatcherServlet'
+2020-12-09 17:49:49 - Completed initialization in 2 ms
+2020-12-09 17:49:49 - Inside login() and the email is: sasho@sds.bg
+2020-12-09 17:49:51 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [512] milliseconds.
+2020-12-09 18:14:50 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m13s733ms644µs500ns).

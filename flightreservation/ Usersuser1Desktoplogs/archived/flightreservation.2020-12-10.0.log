@@ -1,0 +1,50 @@
+2020-12-10 12:01:56 - Starting FlightreservationApplication using Java 13.0.2 on DESKTOP-LNFB5RO with PID 5396 (C:\Users\user1\IdeaProjects\Udemy\Udemy\Full Stack Developent using Spring boot, Angular and React\flightreservation\target\classes started by user1 in C:\Users\user1\IdeaProjects\Udemy\Udemy\Full Stack Developent using Spring boot, Angular and React\flightreservation)
+2020-12-10 12:01:56 - No active profile set, falling back to default profiles: default
+2020-12-10 12:01:58 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-10 12:01:58 - Finished Spring Data repository scanning in 106 ms. Found 4 JPA repository interfaces.
+2020-12-10 12:01:59 - Tomcat initialized with port(s): 8080 (http)
+2020-12-10 12:01:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-10 12:01:59 - Starting service [Tomcat]
+2020-12-10 12:01:59 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-10 12:01:59 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-12-10 12:01:59 - Initializing Spring embedded WebApplicationContext
+2020-12-10 12:01:59 - Root WebApplicationContext: initialization completed in 3210 ms
+2020-12-10 12:02:00 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 12:02:00 - HikariPool-1 - Starting...
+2020-12-10 12:02:00 - HikariPool-1 - Start completed.
+2020-12-10 12:02:00 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-10 12:02:00 - HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-12-10 12:02:01 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-10 12:02:01 - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-10 12:02:01 - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-10 12:02:02 - Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2020-12-10 12:02:02 - Triggering deferred initialization of Spring Data repositories…
+2020-12-10 12:02:02 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-10 12:02:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-10 12:02:03 - Spring Data repositories initialized!
+2020-12-10 12:02:03 - Started FlightreservationApplication in 8.001 seconds (JVM running for 11.075)
+2020-12-10 12:02:32 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-10 12:02:32 - Initializing Servlet 'dispatcherServlet'
+2020-12-10 12:02:32 - Completed initialization in 1 ms
+2020-12-10 12:02:39 - Inside showLoginPage()
+2020-12-10 12:02:41 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [400] milliseconds.
+2020-12-10 12:02:48 - Inside login() and the email is: sasho@sds.bg
+2020-12-10 12:03:01 - Inside findFlights() From: AUS TO: NYC Departure Date: 2018-02-06
+2020-12-10 12:03:01 - Flights Found are : [Flight{flightNumber='SW1', operatingAirlines='South West', departureCity='AUS', arrivalCity='NYC', dateOfDeparture=2018-02-06, estimatedDepartureTime=2018-02-06 09:14:07.0}, Flight{flightNumber='SW2', operatingAirlines='South West', departureCity='AUS', arrivalCity='NYC', dateOfDeparture=2018-02-06, estimatedDepartureTime=2018-02-06 10:14:07.0}]
+2020-12-10 12:03:07 - showCompleteReservation() invoked with the Flight Id:7
+2020-12-10 12:03:07 - Flight is: Flight{flightNumber='SW1', operatingAirlines='South West', departureCity='AUS', arrivalCity='NYC', dateOfDeparture=2018-02-06, estimatedDepartureTime=2018-02-06 09:14:07.0}
+2020-12-10 12:03:29 - completeReservation() ReservationRequest{flightId=7, passengerFirstName='Aleksandar', passengerLastName='Yunchov', passengerEmail='aleksandarunchev@gmail.com', passengerPhone='0896363625', nameOnTheCard='nlknl', cardNumber='knknkon', expirationDate='nkokno', securityCode='nko'}
+2020-12-10 12:03:29 - Inside bookFlight()ReservationRequest{flightId=7, passengerFirstName='Aleksandar', passengerLastName='Yunchov', passengerEmail='aleksandarunchev@gmail.com', passengerPhone='0896363625', nameOnTheCard='nlknl', cardNumber='knknkon', expirationDate='nkokno', securityCode='nko'}
+2020-12-10 12:03:29 - Fetching flight for flight id: 7
+2020-12-10 12:03:29 - Inside bookFlight()ReservationRequest{flightId=7, passengerFirstName='Aleksandar', passengerLastName='Yunchov', passengerEmail='aleksandarunchev@gmail.com', passengerPhone='0896363625', nameOnTheCard='nlknl', cardNumber='knknkon', expirationDate='nkokno', securityCode='nko'}
+2020-12-10 12:03:29 - Saving the passenger: com.aleksandar.flightreservation.flightreservation.entities.Passenger@7d163c72
+2020-12-10 12:03:29 - Saving the reservationcom.aleksandar.flightreservation.flightreservation.entities.Reservation@134c438d
+2020-12-10 12:03:29 - Generating the itinerary
+2020-12-10 12:03:29 - generateItinerary()
+2020-12-10 12:03:29 - Emailing the Itinerary
+2020-12-10 12:03:29 - Inside sendItinerary()
+2020-12-10 12:10:09 - Inside findReservation() for id:6
+2020-12-10 12:10:14 - Inside updateReservation() for com.aleksandar.flightreservation.flightreservation.dto.ReservationUpdateRequest@7ebe1877
+2020-12-10 12:10:14 - Saving reservation 
+2020-12-10 16:15:17 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h43m45s856ms956µs900ns).
+2020-12-10 16:47:56 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m8s967ms343µs700ns).
